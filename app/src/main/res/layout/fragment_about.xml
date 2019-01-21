@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".fragment.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Velocomp, nhà sản xuất dòng sản phẩm điện tử iBike dành cho xe đạp đã giới thiệu tại CES năm nay dòng sản phẩm iBike Power House - Thiết bị máy tính đầu tiên dành cho xe đạp hỗ trợ người dùng trong việc tập thể dục.
+
+Sản phẩm bao gồm bao gồm hộp chống nước và va đập cho iPad hoặc iPod Touch, hệ thống đo lường và tính năng lượng đã sử dụng.
+
+Theo John Harmon – CEO của Velocomp cho biết: “Sản phẩm sẽ cho bạn biết bạn đã đi được bao xa với tốc độ ra sao và cả nhịp tim khi hoạt động. Sản phẩm giúp bạn giảm cân, giải quyết các vấn đề với tim mạch. Bên cạnh đó, nó còn có những bài tập với cường độ cao dành cho những ai có ít thời gian đạp xe”. Một chi tiết thú vị là iBike Power House bao gồm một ứng dụng mang tên “Brazillian Butt” nhằm giúp cho những ai có nhu cầu điều chỉnh số đo vòng 3 của bản thân." />
+
+    </LinearLayout>
+</ScrollView>

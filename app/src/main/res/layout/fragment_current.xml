@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical"
+    tools:context=".fragment.tab.CurrentServiceFragment">
+
+    <TableLayout
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:background="@drawable/bg_current"
+        android:stretchColumns="*"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#070e0d"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trạng thái:"
+                />
+            <TextView
+                android:textStyle="italic"
+                android:textColor="#585858"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đang thay dầu"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#0c1b19"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời gian còn lại:"
+                />
+            <TextView
+                android:id="@+id/txt_remain_time"
+                android:textStyle="italic"
+                android:textColor="#585858"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 phút"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#102320"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày giờ sửa chữa:"
+                />
+            <TextView
+                android:id="@+id/txt_day"
+                android:textStyle="italic"
+                android:textColor="#585858"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19/01/2019"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#0f211e"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số tiền phải trả:"
+                />
+            <TextView
+                android:textStyle="italic"
+                android:textColor="#585858"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100.000vnd"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

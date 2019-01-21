@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/service"
+            android:title="Dịch vụ" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_loop_black_24dp"
+            android:title="Lịch sử" />
+        <item
+            android:id="@+id/nav_accessary"
+            android:icon="@drawable/repair"
+            android:title="phụ tùng" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/info"
+            android:title="giới thiệu" />
+    </group>
+
+
+
+</menu>
